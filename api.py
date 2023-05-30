@@ -56,6 +56,9 @@ def make_prediction(model_path, image_path):
     if label == 2:return 'MCI'
     return label
 
+@app.route('/version/', methods=['GET'])
+def version():
+  return tf.__version__
 @app.route('/predict/', methods=['GET'])
 def get_record():
 
