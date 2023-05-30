@@ -60,7 +60,7 @@ def make_prediction(model_path, image_path):
 def get_record():
 
     try:
-        return make_prediction('model/model_atten_cnn_classfier', 
+        return make_prediction('model_atten_cnn_classfier', 
                                'wc1ADNI_002_S_0295_MR_Axial_PD_T2_FSE__br_raw_20060418201717292_2_S13405_I13724.nii')
 
     # region Handle Errors
