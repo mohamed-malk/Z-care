@@ -1,0 +1,6 @@
+flask
+Gunicorn
+tensorflow
+nibabel
+google-api-python-client
+scikit-image
