@@ -48,13 +48,13 @@ def get_positions(num_patch, dim):
   return result
 def make_prediction(model_path, image_path):
     model = tf.keras.models.load_model(model_path)
-    image = skTrans.resize(nib.load(image_path).get_fdata()[:,:,28:94],
-                         (121,145,10), order=1, preserve_range=True)
-    label = np.argmax(model.predict(np.array([image])), axis=1)[0]
-    if label == 0:return 'AD'
-    if label == 1:return 'CN'
-    if label == 2:return 'MCI'
-    return label
+#     image = skTrans.resize(nib.load(image_path).get_fdata()[:,:,28:94],
+#                          (121,145,10), order=1, preserve_range=True)
+#     label = np.argmax(model.predict(np.array([image])), axis=1)[0]
+#     if label == 0:return 'AD'
+#     if label == 1:return 'CN'
+#     if label == 2:return 'MCI'
+    return model.name
 
 @app.route('/version/', methods=['GET'])
 def version():
