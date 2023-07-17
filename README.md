@@ -13,7 +13,7 @@
 <kbd>![.](Readme-images/README_page-0013.jpg)</kbd>
 <kbd>![.](Readme-images/README_page-0014.jpg)</kbd>
 <kbd>![.](Readme-images/README_page-0015.jpg)</kbd>
-<kbd>![.](Readme-images/video.mp4)</kbd>
+[![Presentation Video](Readme-images/app.png)](Readme-images/video.mp4)
 <kbd>![.](Readme-images/README_page-0016.jpg)</kbd>
 <kbd>![.](Readme-images/README_page-0017.jpg)</kbd>
 <kbd>![.](Readme-images/README_page-0018.jpg)</kbd>
@@ -49,7 +49,7 @@
 <kbd>![.](Readme-images/README_page-0048.jpg)</kbd>
 <kbd>![.](Readme-images/README_page-0049.jpg)</kbd>
 <kbd>![.](Readme-images/README_page-0050.jpg)</kbd>
-<kbd>![.](Readme-images/media1.mp4)</kbd>
+[![Gene Expresssion](Readme-images/gene_expresion.png)](Readme-images/Media1.mp4)
 <kbd>![.](Readme-images/README_page-0051.jpg)</kbd>
 <kbd>![.](Readme-images/README_page-0052.jpg)</kbd>
 <kbd>![.](Readme-images/README_page-0053.jpg)</kbd>
